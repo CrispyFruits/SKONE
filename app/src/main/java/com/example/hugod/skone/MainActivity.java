@@ -12,8 +12,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    private String youScore;
-    private String phoneScore;
+    private String youScore = "";
+    private String phoneScore = "";
     private final String TAG = "Activity";
 
     @SuppressLint("ClickableViewAccessibility")
@@ -73,31 +73,32 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public String addLetter(String currentScore){
-        currentScore = currentScore;
+        String theScore = "";
 
 
         switch (currentScore){
             case "":
-                currentScore = "S";
+                theScore = "S";
                 break;
 
             case "S":
-                currentScore = "S.K";
+                theScore = "S.K";
                 break;
 
             case "S.K":
-                currentScore = "S.K.A";
+                theScore = "S.K.A";
                 break;
 
             case "S.K.A":
-                currentScore = "S.K.A.T";
+                theScore = "S.K.A.T";
                 break;
 
             case "S.K.A.T":
-                currentScore = "S.K.A.T.E";
+                theScore = "S.K.A.T.E";
                 break;
         }
-        return currentScore;
+
+        return theScore;
     }
 
 }
