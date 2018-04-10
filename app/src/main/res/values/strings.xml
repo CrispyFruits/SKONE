@@ -1,3 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">SKONE</string>
+
+    <string-array name="basic_tricks">
+        <item>Ollie</item>
+        <item>Frontside 180</item>
+        <item>Backside 180</item>
+        <item>Pop Shove It</item>
+        <item>Frontside Pop Shove It</item>
+        <item>Heelflip</item>
+        <item>Kickflip</item>
+    </string-array>
+
+    <string name="currentTrick">Current Trick:</string>
+    <string name="trick">Trick</string>
+    <string name="stance">Stance</string>
+
 </resources>

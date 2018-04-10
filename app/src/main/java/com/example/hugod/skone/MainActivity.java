@@ -35,5 +35,32 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public String addLetter(String currentScore){
+        currentScore = currentScore;
+
+
+        switch (currentScore){
+            case "":
+                currentScore = "S";
+                break;
+
+            case "S":
+                currentScore = "S.K";
+                break;
+
+            case "S.K":
+                currentScore = "S.K.A";
+                break;
+
+            case "S.K.A":
+                currentScore = "S.K.A.T";
+                break;
+
+            case "S.K.A.T":
+                currentScore = "S.K.A.T.E";
+                break;
+        }
+        return currentScore;
+    }
 
 }
