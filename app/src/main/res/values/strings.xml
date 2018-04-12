@@ -16,4 +16,9 @@
     <string name="trick">Trick</string>
     <string name="stance">Stance</string>
 
+    <string name="dialog_message">Do you want to play again?</string>
+    <string name="dialog_title_win">You Won!!!</string>
+    <string name="dialog_title_lose">You Lost.</string>
+    <string name="dialog_play_again_btn">Play Again!</string>
+    <string name="quit_btn">Quit to menu</string>
 </resources>
