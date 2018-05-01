@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -136,7 +137,8 @@ public class MainActivity extends AppCompatActivity {
         });
         builder.setNegativeButton(R.string.quit_btn, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
-                // User cancelled the dialog
+                Intent Intent = new Intent(MainActivity.this, MenuActivity.class);
+                startActivity(Intent);
             }
         });
 
@@ -162,7 +164,8 @@ public class MainActivity extends AppCompatActivity {
         });
         builder.setNegativeButton(R.string.quit_btn, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
-                // User cancelled the dialog
+                Intent intent = new Intent(MainActivity.this , MenuActivity.class);
+                startActivity(intent);
             }
         });
 
